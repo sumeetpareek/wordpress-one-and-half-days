@@ -1,0 +1,50 @@
+[04-May-2021 17:55:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 17:55:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 17:56:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/wordpress-one/public_html/wp-includes/update.php on line 410
+[04-May-2021 17:56:20 UTC] PHP Stack trace:
+[04-May-2021 17:56:20 UTC] PHP   1. {main}() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:0
+[04-May-2021 17:56:20 UTC] PHP   2. require_once() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:10
+[04-May-2021 17:56:20 UTC] PHP   3. do_action($tag = 'load-plugins.php') /srv/www/wordpress-one/public_html/wp-admin/admin.php:374
+[04-May-2021 17:56:20 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) /srv/www/wordpress-one/public_html/wp-includes/plugin.php:484
+[04-May-2021 17:56:20 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) /srv/www/wordpress-one/public_html/wp-includes/class-wp-hook.php:316
+[04-May-2021 17:56:20 UTC] PHP   6. wp_update_plugins($extra_stats = '') /srv/www/wordpress-one/public_html/wp-includes/class-wp-hook.php:292
+[04-May-2021 17:56:20 UTC] PHP   7. trigger_error($message = 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)', $error_type = 512) /srv/www/wordpress-one/public_html/wp-includes/update.php:410
+[04-May-2021 17:56:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/wordpress-one/public_html/wp-includes/update.php:410) in /srv/www/wordpress-one/public_html/wp-admin/admin-header.php on line 9
+[04-May-2021 17:56:20 UTC] PHP Stack trace:
+[04-May-2021 17:56:20 UTC] PHP   1. {main}() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:0
+[04-May-2021 17:56:20 UTC] PHP   2. require_once() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:603
+[04-May-2021 17:56:20 UTC] PHP   3. header($header = 'Content-Type: text/html; charset=UTF-8') /srv/www/wordpress-one/public_html/wp-admin/admin-header.php:9
+[04-May-2021 17:56:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/wordpress-one/public_html/wp-includes/update.php:410) in /srv/www/wordpress-one/public_html/wp-includes/option.php on line 1051
+[04-May-2021 17:56:20 UTC] PHP Stack trace:
+[04-May-2021 17:56:20 UTC] PHP   1. {main}() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:0
+[04-May-2021 17:56:20 UTC] PHP   2. require_once() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:603
+[04-May-2021 17:56:20 UTC] PHP   3. wp_user_settings() /srv/www/wordpress-one/public_html/wp-admin/admin-header.php:70
+[04-May-2021 17:56:20 UTC] PHP   4. setcookie($name = 'wp-settings-1', $value = '', $expires_or_options = 1651686980, $path = '/', $domain = NULL, $secure = FALSE) /srv/www/wordpress-one/public_html/wp-includes/option.php:1051
+[04-May-2021 17:56:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /srv/www/wordpress-one/public_html/wp-includes/update.php:410) in /srv/www/wordpress-one/public_html/wp-includes/option.php on line 1052
+[04-May-2021 17:56:20 UTC] PHP Stack trace:
+[04-May-2021 17:56:20 UTC] PHP   1. {main}() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:0
+[04-May-2021 17:56:20 UTC] PHP   2. require_once() /srv/www/wordpress-one/public_html/wp-admin/plugins.php:603
+[04-May-2021 17:56:20 UTC] PHP   3. wp_user_settings() /srv/www/wordpress-one/public_html/wp-admin/admin-header.php:70
+[04-May-2021 17:56:20 UTC] PHP   4. setcookie($name = 'wp-settings-time-1', $value = 1620150980, $expires_or_options = 1651686980, $path = '/', $domain = NULL, $secure = FALSE) /srv/www/wordpress-one/public_html/wp-includes/option.php:1052
+[04-May-2021 17:56:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 17:56:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 17:56:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:00:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:00:49 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:00:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:01:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:01:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:01:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:01:57 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:09:12 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:09:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:09:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: _gateway:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:45:48 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:54:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 18:54:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 19:54:54 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/wordpress-one/public_html/wp-includes/update.php on line 410
+[04-May-2021 20:52:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[04-May-2021 20:52:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[05-May-2021 13:03:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[05-May-2021 13:03:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.50.1:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[05-May-2021 14:18:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /srv/www/wordpress-one/public_html/wp-includes/update.php on line 410
